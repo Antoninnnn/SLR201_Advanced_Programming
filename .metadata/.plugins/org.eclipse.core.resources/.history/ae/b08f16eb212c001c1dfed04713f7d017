@@ -1,0 +1,8 @@
+
+public class Leak {
+
+	public Leak() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

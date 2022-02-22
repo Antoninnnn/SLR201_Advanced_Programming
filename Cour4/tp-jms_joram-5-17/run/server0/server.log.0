@@ -1,0 +1,25 @@
+FelixStartLevel INFO 2021-10-20 16:27:56,580, Debug.initialize() - a3debug.cfg
+FelixStartLevel INFO 2021-10-20 16:27:56,587, AgentServer#0, init()
+FelixStartLevel INFO 2021-10-20 16:27:56,614, AgentServer#0, XML configuration file loaded
+FelixStartLevel INFO 2021-10-20 16:27:56,630, AgentServer#0, ServiceManager initialized
+FelixStartLevel INFO 2021-10-20 16:27:56,630, AgentServer#0, Updates ServiceManager
+FelixStartLevel INFO 2021-10-20 16:27:56,632, Engine#0, factory created
+FelixStartLevel INFO 2021-10-20 16:27:56,632, AgentServer#0, initialized at Wed Oct 20 16:27:56 CEST 2021
+FelixStartLevel INFO 2021-10-20 16:27:56,633, AgentServer#0, start()
+FelixStartLevel INFO 2021-10-20 16:27:56,650, Message.Pool: 150
+FelixStartLevel INFO 2021-10-20 16:27:56,666, AgentServer#0, ServiceManager started
+FelixStartLevel INFO 2021-10-20 16:27:56,667, AgentServer#0, started at Wed Oct 20 16:27:56 CEST 2021
+JndiServer.Monitor#0 INFO 2021-10-20 16:28:02,267, JndiServer.Monitor#0, connection from /127.0.0.1:56300
+JndiServer.Monitor#0 INFO 2021-10-20 16:28:08,722, JndiServer.Monitor#0, connection from /127.0.0.1:56302
+JndiServer.Monitor#0 INFO 2021-10-20 16:28:08,735, JndiServer.Monitor#0, connection from /127.0.0.1:56304
+JndiServer.Monitor#0 INFO 2021-10-20 16:28:08,736, JndiServer.Monitor#0, connection from /127.0.0.1:56306
+JndiServer.Monitor#0 INFO 2021-10-20 16:28:08,738, JndiServer.Monitor#0, connection from /127.0.0.1:56308
+JndiServer.Monitor#0 INFO 2021-10-20 16:28:08,738, JndiServer.Monitor#0, connection from /127.0.0.1:56310
+JndiServer.Monitor#2 INFO 2021-10-20 16:28:08,739, JndiServer.Monitor#2, connection from /127.0.0.1:56312
+JndiServer.Monitor#2 INFO 2021-10-20 16:28:08,741, JndiServer.Monitor#2, connection from /127.0.0.1:56314
+JndiServer.Monitor#2 INFO 2021-10-20 16:28:31,030, JndiServer.Monitor#2, connection from /127.0.0.1:56326
+JndiServer.Monitor#2 INFO 2021-10-20 16:28:31,047, JndiServer.Monitor#2, connection from /127.0.0.1:56328
+JndiServer.Monitor#1 INFO 2021-10-20 16:28:36,693, JndiServer.Monitor#1, connection from /127.0.0.1:56330
+JndiServer.Monitor#1 INFO 2021-10-20 16:28:36,710, JndiServer.Monitor#1, connection from /127.0.0.1:56332
+JndiServer.Monitor#2 INFO 2021-10-20 16:28:44,979, JndiServer.Monitor#2, connection from /127.0.0.1:56334
+JndiServer.Monitor#2 INFO 2021-10-20 16:28:44,996, JndiServer.Monitor#2, connection from /127.0.0.1:56336

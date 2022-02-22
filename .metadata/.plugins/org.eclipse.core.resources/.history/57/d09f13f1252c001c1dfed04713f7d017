@@ -1,0 +1,23 @@
+
+public class Leak extends Thread {
+	private Bathtub btub;
+	private int vitess;
+	
+	public Leak(Bathtub bt, int i) {
+		super();
+		this.btub = bt;
+		this.vitess = i;
+	}
+
+	public void run() {
+		while (true) {
+			if(this.btub.getQuantity()<3) {wait();} 
+			else {
+				this.btub.pull(this.vitess);
+				try {Thread.sleep(300);} catch(Exception e) {}
+			}
+		}
+		
+	}
+
+}

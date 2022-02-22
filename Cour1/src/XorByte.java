@@ -1,0 +1,7 @@
+
+public class XorByte {
+	public int xor(int b1, int b2) {
+		return (int)(0xFF & (b1 ^ b2));
+	}
+
+}

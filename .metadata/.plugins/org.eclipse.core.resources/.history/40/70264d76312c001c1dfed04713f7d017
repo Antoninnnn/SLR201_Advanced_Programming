@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class PolyLine {
+	ArrayList<Point> pL;
+	
+	public void saveInFile() {
+		
+	}
+
+	public PolyLine(ArrayList<Point> pL) {
+		super();
+		this.pL = pL;
+	}
+
+
+	
+}

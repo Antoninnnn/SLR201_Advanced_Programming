@@ -1,0 +1,31 @@
+
+public class Tap extends Thread {
+	private Bathtub btub;
+	private int vitess;
+	
+	public Tap(Bathtub bt, int i) {
+		super();
+		this.btub = bt;
+		this.vitess = i;
+	}
+
+	public  void run() {
+		synchronized(this.btub) {
+			try {
+				while (true) {
+					if(this.btub.getQuantity()>(this.btub.getCapacity()-this.vitess)) {
+						btub.wait();
+					} 
+					else {
+						this.btub.add(this.vitess);
+						btub.notifyAll();
+						try {Thread.sleep(300);} catch(Exception e) {}
+					}
+				}
+			}catch (Exception e) { e.printStackTrace() ;}
+		}
+	}
+		
+		
+
+}

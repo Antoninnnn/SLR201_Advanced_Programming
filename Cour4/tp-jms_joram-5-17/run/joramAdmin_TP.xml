@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+<JoramAdmin>
+
+  <TcpAdminModule host="localhost" port="15004" name="root" password="root">
+    <property name="connectingTimer" value="60"/>
+  </TcpAdminModule>
+
+  <InitialContext>
+    <property name="java.naming.factory.initial"
+              value="fr.dyade.aaa.jndi2.client.NamingContextFactory"/>
+    <property name="java.naming.factory.host" value="localhost"/>
+    <property name="java.naming.factory.port" value="16004"/>
+  </InitialContext>
+
+  <TcpConnectionFactory name="cf" host="localhost" port="15004">
+    <jndi name="ConnectionFactory"/>
+  </TcpConnectionFactory>
+
+  <TcpConnectionFactory name="cf" host="localhost" port="15004">
+    <jndi name="MyConnectionFactory"/>
+  </TcpConnectionFactory>
+
+
+  <User name="admin" password="joram"/>
+
+  <User name="Antonin" password="1004"/>
+
+  <Queue name="queue" serverId="0">
+    <freeReader/>
+    <freeWriter/>
+    <jndi name="queue1"/>
+  </Queue>
+
+  <Queue name="queue" serverId="0">
+    <freeReader/>
+    <freeWriter/>
+    <jndi name="Myqueue"/>
+  </Queue>
+
+
+  <Queue name="queue2" serverId="0">
+    <freeReader/>
+    <freeWriter/>
+    <jndi name="queue2"/>
+  </Queue>
+
+  <Topic name="topic" serverId="0">
+    <freeReader/>
+    <freeWriter/>
+    <jndi name="topic1"/>
+  </Topic>
+
+  <Topic name="topic" serverId="0">
+    <freeReader/>
+    <freeWriter/>
+    <jndi name="Mytopic"/>
+  </Topic>
+
+
+</JoramAdmin>

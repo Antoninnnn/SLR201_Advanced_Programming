@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/cal/exterieurs/yang-21/AdvancedJava/.metadata/.plugins/org.eclipse.jdt.core
+633561721.index
+581871200.index
+3999616304.index
+646308851.index
